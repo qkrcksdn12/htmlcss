@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.sta {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    white-space: nowrap;
+}
+
+.sta li {
+    display: inline-block;
+}
+
+.sta li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.sta li a:hover {
+    background-color: rgb(24, 23, 23);
+    text-decoration: none;
+     color: green;
+    font-size: 16px;
+}
+
+.back-image{
+    background-image: url(../images/img.png);
+    width: 2850px;
+    height: 915px;
+}
+
+.target{
+    text-align: center;
+
+}
